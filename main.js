@@ -9,6 +9,9 @@ var app = new Vue({
     },
     decrement: function() {
       this.counter = this.counter - 1;
+    },
+    reset: function() {
+      this.counter = 0;
     }
   }
 });
